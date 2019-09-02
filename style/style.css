@@ -1,0 +1,49 @@
+@media only screen and (max-width: 800px) {
+    div {
+      width: 300px;
+      height: 300px;
+    }
+    .picture {
+        width: 50px;
+        height: 50px;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    div {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 2fr 20%;
+    grid-template-rows: 2fr 1fr  20% 2fr;
+}
+
+div {
+    height:100%;
+    width: 100%;
+    border-style: dotted;
+    background-color: lightcyan;
+}
+
+#name {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+.picture {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
